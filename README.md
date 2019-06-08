@@ -1,1 +1,1 @@
-# cs-excecise
+# cs-excercise
