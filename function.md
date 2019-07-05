@@ -254,7 +254,7 @@ multiBy2(12)
 var f2 = (a, b, c, x) => a * x * x + b * x + c
 ```
 
-これは 数学の https://latex.codecogs.com/gif.download?f%28x%29%20%3D%20ax%5E2%20+%20bx%20+%20c 
+これは 数学の <img src="https://latex.codecogs.com/png.download?%5Clarge%20f%28x%29%20%3D%20ax%5E2%20+%20bx%20+%20c"> の式と同じです。 
 
 
 ところで a が 2 だと分かっているとして、新たに x だけをパラメータとして取る、 multiBy2 という名前の関数をつくりましょう
