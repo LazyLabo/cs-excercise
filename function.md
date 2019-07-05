@@ -256,7 +256,7 @@ var f2 = (a, b, c, x) => a * x * x + b * x + c
 
 これは 数学で習う
 
-<img src='https://latex.codecogs.com/svg.latex?\Large&space;\[f(x)%20=%20ax^2%20+%20bx%20+%20c\]'>
+<img src='https://latex.codecogs.com/svg.latex?\Large&space;\f(x)%20=%20ax^2%20+%20bx%20+%20c\'>
 
 の式ですね。 
 
