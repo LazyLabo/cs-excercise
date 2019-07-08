@@ -155,7 +155,7 @@ add(3, 5)
 
 ## 練習４の３
 
-引数は ```a``` と ```b``` と ```x``` の３つを取り、式が　<img src='https://latex.codecogs.com/svg.latex?\Large&space;\a*x%20+%20b'> になるような関数を作ってください。名前は ```f1``` にしましょう。
+引数は ```a``` と ```b``` と ```x``` の３つを取り、式が　<img src='https://latex.codecogs.com/svg.latex?\Large&space;ax%20+%20b'> になるような関数を作ってください。名前は ```f1``` にしましょう。
 
 関数が出来たら、a=3、b=12、x=5 を引数の値にして ```f1``` 呼び出してみましょう。答えが27なら成功です。
 
@@ -176,7 +176,7 @@ f1(3, 12, 5)
 
 ## 練習４の４
 
-```a``` と ```b``` と ```c``` と ```x``` を引数にとって、<img src='https://latex.codecogs.com/svg.latex?\Large&space;\ax^2%20+%20bx%20+%20c'>  という式を評価する関数を作ってください。名前は ```f2``` にしましょう。
+```a``` と ```b``` と ```c``` と ```x``` を引数にとって、<img src='https://latex.codecogs.com/svg.latex?\Large&space;ax^2%20+%20bx%20+%20c'>  という式を評価する関数を作ってください。名前は ```f2``` にしましょう。
 
 確認として a=2、b=3、c=4、x=8 で関数 ```f2``` を使って計算してみましょう。
 
@@ -184,7 +184,7 @@ f1(3, 12, 5)
 
 ```javascript
 var f2 = (a, b, c, x) => (a * x * x) + (b * x) + c
-add(2, 3, 4, 8)
+f2(2, 3, 4, 8)
 ``` 
 
 ### ふりかえり
@@ -267,7 +267,7 @@ add(3)(5)
 
 # 練習４の３、書き換え
 
-引数は ```a``` と ```b``` と ```x``` の３つを取り、式が　<img src='https://latex.codecogs.com/svg.latex?\Large&space;\a*x%20+%20b'> になるような関数 ```f1``` を作りました。
+引数は ```a``` と ```b``` と ```x``` の３つを取り、式が　<img src='https://latex.codecogs.com/svg.latex?\Large&space;ax%20+%20b'> になるような関数 ```f1``` を作りました。
 
 ```javascript
 f1 = (a, b, x) => a * x + b
@@ -302,11 +302,11 @@ f1(3)(12)(5)
 
 # 練習４の４、書き換え
 
-```a``` と ```b``` と ```c``` と ```x``` を引数にとって、<img src='https://latex.codecogs.com/svg.latex?\Large&space;\ax^2%20+%20bx%20+%20c'>  という式を評価する関数 ```f2``` を作りました。
+```a``` と ```b``` と ```c``` と ```x``` を引数にとって、<img src='https://latex.codecogs.com/svg.latex?\Large&space;ax^2%20+%20bx%20+%20c'>  という式を評価する関数 ```f2``` を作りました。
 
 ```javascript
 var f2 = (a, b, c, x) => (a * x * x) + (b * x) + c
-add(2, 3, 4, 8)
+f2(2, 3, 4, 8)
 ``` 
 
 これを元に、引数を```=>```で区切るやり方に書き換えましょう。
@@ -315,7 +315,7 @@ add(2, 3, 4, 8)
 
 ```javascript
 var f2 = a => b => c => x => (a * x * x) + (b * x) + c
-add(2)(3)(4)(8)
+f2(2)(3)(4)(8)
 ``` 
 
 ### ふりかえり
